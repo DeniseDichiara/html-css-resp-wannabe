@@ -127,7 +127,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- 
+
+main{
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
  @media screen and (max-with:768px) {
     main{
         flex-wrap: wrap;
