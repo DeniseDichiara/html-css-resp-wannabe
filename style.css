@@ -135,11 +135,31 @@ main{
     margin: 0 auto;
 }
 
-/*al massimo 768 px*/
+.container{
+    width: 100%;
+}
+
+/*al massimo 768 px. Da 0 a 768*/
 
  @media screen and (max-width:768px) {
     main{
         flex-wrap: wrap;
     }
+
+    img{
+        margin-bottom: 1rem;
+    }
     
+ }
+
+ /* Al massimo 480. Da 0 a 480 */
+
+ @media screen and (max-width:480px) {
+    main{
+        padding: 2rem;
+    }
+    img{
+        width: 100%;
+    }
+
  }
