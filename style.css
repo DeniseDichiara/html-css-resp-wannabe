@@ -135,7 +135,9 @@ main{
     margin: 0 auto;
 }
 
- @media screen and (max-with:768px) {
+/*al massimo 768 px*/
+
+ @media screen and (max-width:768px) {
     main{
         flex-wrap: wrap;
     }
