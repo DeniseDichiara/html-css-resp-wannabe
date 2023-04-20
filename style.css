@@ -130,6 +130,7 @@ img {
 
 main{
     max-width: 1200px;
+    min-width: 480px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -139,13 +140,9 @@ main{
     width: 100%;
 }
 
-/*
-.card{
+.row{
     display: flex;
-}
-
-.lessons{
-    display: flex;
+    flex-direction: column;
 }
 
 /*al massimo 768 px. Da 0 a 768*/
@@ -168,15 +165,27 @@ main{
         padding: 2rem;
         flex-wrap: wrap;
     }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
     img{
+
+        /*
+        flex-wrap: wrap;
+
+        */
         width: 100%;
     }
+
+    /*
     .card{
         flex-wrap: wrap;
     }
     .lessons{
         flex-wrap: wrap;
     }
-
+    */
  }
  
