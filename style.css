@@ -139,6 +139,15 @@ main{
     width: 100%;
 }
 
+/*
+.card{
+    display: flex;
+}
+
+.lessons{
+    display: flex;
+}
+
 /*al massimo 768 px. Da 0 a 768*/
 
  @media screen and (max-width:768px) {
@@ -157,9 +166,17 @@ main{
  @media screen and (max-width:480px) {
     main{
         padding: 2rem;
+        flex-wrap: wrap;
     }
     img{
         width: 100%;
     }
+    .card{
+        flex-wrap: wrap;
+    }
+    .lessons{
+        flex-wrap: wrap;
+    }
 
  }
+ 
